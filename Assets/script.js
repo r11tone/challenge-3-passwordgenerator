@@ -29,7 +29,7 @@ function writePassword() {
   }
 
 }
-//generating password
+// Generating password
 function generatePassword() {
   var password = "";
   for (var i = 0; i < characterLength; i++) {
@@ -38,7 +38,7 @@ function generatePassword() {
   }
   return password;
 }
-//prompts for generating password
+// Prompts for generating password
 function getPrompts() {
   choiceArray = [];
 

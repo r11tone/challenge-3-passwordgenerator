@@ -1,16 +1,17 @@
-# challenge-3-passwordgenerator
-# Password Generator Starter Code
-// Assignment Code
-var generateBtn = document.querySelector("#generate");
+# <Your-Project-Title>
 
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+"Password Generator"
 
-  passwordText.value = password;
+## Description
 
-}
+Was given an assignment for UCF FullStax coding boot camp. The assignment consisted of implementing the javascript for a "random password generator".
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+
+## Installation
+
+There are many ways to build the Javascript document to create a working password generator..
+I used an array for all of the singular characters that can be used in the password creation. 
+
+## Features
+
+Random password generator.
